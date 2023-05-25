@@ -1,135 +1,157 @@
 import React from "react";
 import TechCard from "./shared/tech-card";
-import ReactLogo from "./logos/react.png";
-import NodeLogo from "./logos/node.png";
+import HTMLLogo from "./logos/html.png";
+import CSSLogo from "./logos/css.png";
+import JavaScriptLogo from "./logos/js.png";
+import Typescriptogo from "./logos/ts.png";
+import ReduxLogo from "./logos/redux.png";
+import GitLogo from "./logos/git.png";
+import SassLogo from "./logos/sass.png";
+import MongoLogo from "./logos/mongo.png";
+import PostgresSQLLogo from "./logos/postgres.png";
+import MySQLLogo from "./logos/mysql.png";
+import HerokuLogo from "./logos/heroku.png";
+import WebpackLogo from "./logos/webpack.png";
+import BootstrapLogo from "./logos/bootstrap.png";
+import ChakraLogo from "./logos/chakra.png";
+import GraphQL from "./logos/graphql.png";
+import AWSLogo from "./logos/aws.png";
+import GCPLogo from "./logos/gcp.png";
+import ServerlessLogo from "./logos/serverless.png";
+import OpenAPILogo from "./logos/open-api.png";
+import DockerLogo from "./logos/docker.png";
+import TestingLogo from "./logos/testing.png";
+import RustLogo from "./logos/rust.svg";
+import TailwindCSSLogo from "./logos/tailwind.svg";
+import MicroservicesLogo from "./logos/microservices.webp";
 
 const tech = [
 	{
 		title: "HTML",
 		skillLevel: "Proficient",
-		logo: ReactLogo,
+		logo: HTMLLogo,
 	},
 	{
 		title: "CSS",
 		skillLevel: "Proficient",
-		logo: NodeLogo,
+		logo: CSSLogo,
 	},
 	{
 		title: "JavaScript",
 		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "REST API",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
+		logo: JavaScriptLogo,
 	},
 	{
 		title: "Typescript",
 		skillLevel: "Proficient",
-		logo: NodeLogo,
+		logo: Typescriptogo,
+	},
+	{
+		title: "Rust",
+		skillLevel: "Begginer",
+		logo: RustLogo,
 	},
 	{
 		title: "Redux",
 		skillLevel: "Proficient",
-		logo: ReactLogo,
+		logo: ReduxLogo,
 	},
 	{
 		title: "Git",
 		skillLevel: "Proficient",
-		logo: NodeLogo,
+		logo: GitLogo,
 	},
 	{
 		title: "TailwindCSS",
 		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "MongoDB",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "PostgresSQL",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "MySQL",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "Webpack",
-		skillLevel: "Intermediate",
-		logo: ReactLogo,
-	},
-	{
-		title: "Bootstrap",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "Chakra",
-		skillLevel: "Intermediate",
-		logo: ReactLogo,
-	},
-	{
-		title: "GrapQL",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "AWS",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "Lambda",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "Microservices",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "Google Cloud Platform / APIs",
-		skillLevel: "Intermediate",
-		logo: NodeLogo,
-	},
-	{
-		title: "Serverless",
-		skillLevel: "Intermediate",
-		logo: NodeLogo,
-	},
-	{
-		title: "Swagger/OpenAPI",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
-	},
-	{
-		title: "Docker",
-		skillLevel: "Proficient",
-		logo: NodeLogo,
-	},
-	{
-		title: "Unit/Functional Tests",
-		skillLevel: "Proficient",
-		logo: ReactLogo,
+		logo: TailwindCSSLogo,
 	},
 	{
 		title: "Sass",
 		skillLevel: "Intermediate",
-		logo: NodeLogo,
+		logo: SassLogo,
+	},
+	{
+		title: "MongoDB",
+		skillLevel: "Proficient",
+		logo: MongoLogo,
+	},
+	{
+		title: "PostgresSQL",
+		skillLevel: "Proficient",
+		logo: PostgresSQLLogo,
+	},
+	{
+		title: "MySQL",
+		skillLevel: "Proficient",
+		logo: MySQLLogo,
+	},
+	{
+		title: "Webpack",
+		skillLevel: "Intermediate",
+		logo: WebpackLogo,
+	},
+	{
+		title: "Bootstrap",
+		skillLevel: "Proficient",
+		logo: BootstrapLogo,
+	},
+	{
+		title: "Chakra",
+		skillLevel: "Intermediate",
+		logo: ChakraLogo,
+	},
+	{
+		title: "GrapQL",
+		skillLevel: "Proficient",
+		logo: GraphQL,
+	},
+	{
+		title: "Heroku",
+		skillLevel: "Intermediate",
+		logo: HerokuLogo,
+	},
+	{
+		title: "AWS",
+		skillLevel: "Proficient",
+		logo: AWSLogo,
+	},
+	{
+		title: "Microservices",
+		skillLevel: "Proficient",
+		logo: MicroservicesLogo,
+	},
+	{
+		title: "Google Cloud Platform / APIs",
+		skillLevel: "Intermediate",
+		logo: GCPLogo,
+	},
+	{
+		title: "Serverless",
+		skillLevel: "Intermediate",
+		logo: ServerlessLogo,
+	},
+	{
+		title: "Swagger/OpenAPI",
+		skillLevel: "Proficient",
+		logo: OpenAPILogo,
+	},
+	{
+		title: "Docker",
+		skillLevel: "Proficient",
+		logo: DockerLogo,
+	},
+	{
+		title: "Unit/Functional Tests",
+		skillLevel: "Proficient",
+		logo: TestingLogo,
 	},
 ];
 
 function Additional() {
 	return (
 		<div>
-			<h3 className="text-4xl text-center font-bold mb-16">Additional Stack</h3>
+			<h3 className="mb-16">Additional Stack</h3>
 			<div className="flex flex-wrap justify-center gap-5">
 				{tech.map((technology) => (
 					<TechCard

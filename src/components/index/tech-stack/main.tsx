@@ -19,7 +19,7 @@ const tech = [
 function Main() {
 	return (
 		<div>
-			<h3 className="text-4xl text-center font-bold mb-16">Main Stack</h3>
+			<h3 className="mb-16">Main Stack</h3>
 			<div className="flex flex-wrap justify-center gap-5">
 				{tech.map((technology) => (
 					<TechCard

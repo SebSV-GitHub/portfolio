@@ -3,7 +3,7 @@ import React from "react";
 function AboutMeText() {
 	return (
 		<div className="flex flex-col gap-5">
-			<h2 className="text-primary text-2xl font-bold">About me</h2>
+			<h2 className="text-left text-primary text-2xl font-bold">About me</h2>
 			<span className="font-medium text-5xl">
 				Sebasti&aacute;n Su&aacute;rez Valencia
 			</span>

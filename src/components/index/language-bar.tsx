@@ -7,7 +7,7 @@ function LanguageBar() {
 			<div className="container mx-auto py-4 text-base text-white flex">
 				<div className="ml-auto flex justify-center items-center gap-x-1">
 					<LanguageIcon className="h-4" />
-					<span>English</span>
+					<span>English</span>-<span>🦺 Work In Progress</span>
 				</div>
 			</div>
 		</div>
