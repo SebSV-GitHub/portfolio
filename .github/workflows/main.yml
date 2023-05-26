@@ -19,7 +19,9 @@ jobs:
           aws-region: us-east-1
 
       - name: Build
-        run: npm run build
+        run: |
+          npm ci 
+          npm run build
           
       - name: Upload to S3
         run: aws s3 sync $GITHUB_WORKSPACE/public s3://sebsv-free-bucket --delete
