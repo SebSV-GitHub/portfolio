@@ -13,6 +13,9 @@ module.exports = {
 				primary: {
 					DEFAULT: "#6C63FF",
 				},
+				muted: {
+					DEFAULT: "#7E839C",
+				},
 			},
 		},
 	},

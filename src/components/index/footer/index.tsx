@@ -35,7 +35,7 @@ function Footer() {
 			<div className="container mx-auto flex gap-x-28">
 				<div className="w-1/4">
 					<img className="w-16 h-16 mb-7" src={Logo} alt="logo" />
-					<p className="text-[#7E839C]">
+					<p className="text-muted">
 						Thank you for taking the time to visit my portfolio. I hope you
 						found it informative and enjoyable. If you have any questions or
 						would like to discuss potential opportunities, please don't hesitate
@@ -45,7 +45,7 @@ function Footer() {
 				{sections.map(({ title, list }) => (
 					<div className="w-1/4">
 						<span className="text-lg text-white">{title}</span>
-						<ul className="text-[#7E839C] mt-4">
+						<ul className="text-muted mt-4">
 							{list.map((item) => (
 								<li className="mt-8">{item}</li>
 							))}
